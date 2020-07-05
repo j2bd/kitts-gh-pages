@@ -21,8 +21,8 @@
     var elementOptions = el.dataset.options;
     elementOptions = elementOptions ? JSON.parse(elementOptions) : {};
     var defaultOptions = {
-      typeSpeed: 40,
-      backSpeed: 40,
+      typeSpeed: 80,
+      backSpeed: 60,
       backDelay: 1000,
       loop: true
     }
