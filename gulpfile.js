@@ -10,6 +10,7 @@ const cleancss = require('gulp-clean-css');
 const del = require('del');
 const fileinclude = require('gulp-file-include');
 const gulp = require('gulp');
+const deploy = require('gulp-gh-pages');
 const gulpif = require('gulp-if');
 const npmdist = require('gulp-npm-dist');
 const replace = require('gulp-replace');
@@ -78,12 +79,12 @@ const gtag = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 // Tasks ===================================
 //
 
-gulp.task('serveprod', function() {
-  connect.server({
-    root: [your_project_path],
-    port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
-  });
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
 });
 
 gulp.task('browsersync', function(callback) {
