@@ -1,12 +1,13 @@
 {
   "private": true,
-  "name": "Landkit",
+  "name": "landkit",
   "version": "2.0.0",
   "description": "",
   "main": "gulpfile.js",
   "author": "Good Themes",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
