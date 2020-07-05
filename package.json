@@ -2,10 +2,10 @@
   "private": true,
   "name": "landkit",
   "version": "2.0.0",
-  "description": "",
+  "description": "blabla blabla",
   "main": "gulpfile.js",
   "author": "Good Themes",
-    "scripts": {
+  "scripts": {
     "start": "node app",
     "postinstall": "gulp default"
   },

@@ -78,6 +78,15 @@ const gtag = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 // Tasks ===================================
 //
 
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [your_project_path],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
+
+
 gulp.task('browsersync', function(callback) {
   browsersync.init({
     server: {
