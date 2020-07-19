@@ -2,14 +2,10 @@
 <html lang="en">
   <head>
     @@include("partials/head.html", {
-      "pageTitle": "Landkit"
+      "pageTitle": "Demandez une démo"
     })
   </head>
   <body>
-
-    <!-- MODALS
-    ================================================== -->
-    @@include("partials/modals.html")
     
     <!-- NAVBAR
     ================================================== -->
@@ -38,14 +34,14 @@
             
             <!-- Heading -->
             <h2 class="font-weight-bold text-center mb-2">
-              Contact us for anything.
+              Demandez une démo
             </h2>
 
             <!-- Text -->
             <p class="font-size-lg text-center text-muted mb-0">
-              Our goal is to be as helpful as possible. 
+              Remplissez ce formulaire et nous vous recontacterons très rapidement pour vous présenter <b>kitts.io</b>
             </p>
-
+            
             <!-- Divider -->
             <hr class="hr-sm my-6 my-md-8 border-gray-300">
 
@@ -55,43 +51,40 @@
                 
                 <!-- Label -->
                 <label for="contactName">
-                  Full name
+                  Nom
                 </label>
 
                 <!-- Input -->
-                <input type="text" class="form-control" id="contactName" placeholder="Full name">
+                <input type="text" name="trade" class="form-control" id="contactName" placeholder="Nom">
 
               </div>
               <div class="form-group mb-5">
-                
-                <!-- Label -->
-                <label for="contactEmail">
-                  Email
-                </label>
+              <select class="form-control">
+                <option>Concessionnaire</option>           
+                <option>Loueurs franchisés</option>
+                <option>Partenaires</option>   
+              </select>
+            </div>
+             
+            <div class="form-group mb-5">
+              
+              <!-- Label -->
+              <label for="contactEmail">
+                Email
+              </label>
 
-                <!-- Input -->
-                <input type="email" class="form-control" id="contactEmail" placeholder="hello@domain.com">
+              <!-- Input -->
+              <input type="email" name="email" class="form-control" id="contactEmail" placeholder="devon@miles.com">
 
-              </div>
-              <div class="form-group mb-5 d-none">
-                
-                <!-- Label -->
-                <label for="contactMessage">
-                  What can we help you with?
-                </label>
+            </div>
+            <div class="form-group mb-0">
+              
+              <!-- Submit -->
+              <a href="#!" class="btn btn-block btn-primary lift">
+                Envoyer
+              </a>
 
-                <!-- Input -->
-                <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
-
-              </div>
-              <div class="form-group mb-0">
-                
-                <!-- Submit -->
-                <a href="#!" class="btn btn-block btn-primary lift">
-                  Send message
-                </a>
-
-              </div>
+            </div>
             </form>
 
           </div>
