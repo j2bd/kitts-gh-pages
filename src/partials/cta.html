@@ -16,12 +16,16 @@
     <div class="col-12 col-md-5">
 
       <!-- Form -->
-      <form>
+      <form  action="https://formsubmit.co/2df29370ae35fa1fc0d5a71403d9638c" method="POST" />
         <div class="row">
           <div class="col">
 
             <!-- Input -->
-            <input type="email" class="form-control" placeholder="Votre email">
+            <input type="email" name="email" class="form-control" placeholder="Votre email">
+            <input type="hidden" name="_webhook" value="https://script.google.com/macros/s/AKfycbyAiwAYn1W-A-bKBdfgjLURhbpgGolL1eBlIDgX_3RuyFq_r9PW/exec">
+            <input type="hidden" name="_next" value="./thanks.html">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_captcha" value="false">
 
           </div>
           <div class="col-auto ml-n5">

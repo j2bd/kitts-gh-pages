@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+    "pageTitle": "Landkit"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-light bg-white",
+    "container": "container-fluid"
+    })
+
+    <!-- IMAGE
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-10 py-md-14 overlay overlay-black overlay-20 bg-cover jarallax" style="background-image: url(assets/img/kitts-img/tocarsharing.jpg);"></section>
+
+    <section>
+      <div class="container">
+        <div id='kitt'>
+        <div class='one'></div>
+        <div class='two'></div>
+        <div class='three'></div>
+        <div class='four'></div>
+        <div class='five'></div>
+        <div class='six'></div>
+        <div class='seven'></div>
+        <div class='eight'></div>
+        <div class='nine'></div>
+        <div class='ten'></div>
+        </div>
+      </div>
+  </section>
+    <!-- HEADER
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+
+            <!-- Heading -->
+            <h1 class="display-4 mb-10 text-center">
+              THANKS ! 
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative mt-n11">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <section class="pt-11 bg-dark">
+      @@include("partials/footer.html", {
+        "classList": "bg-dark"
+      })
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
