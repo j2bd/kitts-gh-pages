@@ -274,7 +274,7 @@ $custom-control-indicator-border-width: 0px !default;
 $custom-select-indicator-padding: 2rem !default;
 $custom-select-bg-size: auto 50% !default;
 $custom-select-indicator-color: $gray-400 !default;
-$custom-select-indicator: str-replace(url("data:image/svg+xml,%3csvg xmlns='https://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpolyline fill='none' stroke='#{$custom-select-indicator-color}' stroke-width='2' stroke-linecap='round' points='6 9 12 15 18 9'/%3e%3c/svg%3e"), "#", "%23") !default;
+$custom-select-indicator: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpolyline fill='none' stroke='#{$custom-select-indicator-color}' stroke-width='2' stroke-linecap='round' points='6 9 12 15 18 9'/%3e%3c/svg%3e"), "#", "%23") !default;
 $custom-select-box-shadow: none !default;
 
 $custom-select-focus-box-shadow: none !default;
