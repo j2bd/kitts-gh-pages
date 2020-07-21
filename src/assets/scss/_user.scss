@@ -3,9 +3,34 @@
 // Use this to write your custom SCSS
 //
 
-// .navbar-brand-img {
-//   max-height: 3.5rem;
-//   width: auto; }
+.navbar-brand-img {
+  max-height: 3.5rem;
+  width: auto; }
+
+.flickity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(1.6em + 1.625rem + 2px);
+  height: calc(1.6em + 1.625rem + 2px);
+  background-color: #293462;
+  box-shadow: 0 0.5rem 1.5rem rgba(41, 52, 98, 0.05);
+  color: #FFFFFF; }
+  .flickity-button::before, .flickity-button::after {
+    font-family: "Feather"; }
+  .flickity-button:hover, .flickity-button:focus {
+    background-color: #293462;
+    box-shadow: 0 0.5rem 1.5rem rgba(41, 52, 98, 0.1); }
+
+.btn-white {
+  background-color: #FFFFFF;
+  color: #293462; }
+  .btn-white:hover, .btn-white:focus {
+    background-color: #FFFFFF;
+    color: #293462; }
+  .btn-white.active {
+    background-color: #f2f2f2;
+    color: #293462; }
 
 // body {
 //     font-family: "HKGroteskPro", serif;
