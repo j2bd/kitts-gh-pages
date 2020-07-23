@@ -17,7 +17,5 @@
 
   document.getElementById("imagesjb").innerHTML = audi + getaround + ada + enterprise ;
     }
-  }
-  
   
 })();
