@@ -180,3 +180,12 @@
   90%  {opacity:0.2;}
   100%  {opacity:1;}
 }
+
+
+.custom-control-label-jb::before {
+  background-color:  $gray-300 !important;
+}
+// toggle produit
+.custom-control-label-jb::before {
+  background-color: #f8c945 ;
+}

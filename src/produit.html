@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     @@include("partials/head.html", {
-    "pageTitle": "Product"
+    "pageTitle": "Produit kitts.io"
     })
   </head>
   <body class="bg-light">
@@ -16,7 +16,7 @@
 
     <!-- WELCOME
     ================================================== -->
-    <section class="pt-8 pt-md-10 pb-12 pb-md-12">
+    <section class="pt-4 pt-md-5 pb-6 pb-md-6">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -26,12 +26,16 @@
               <a href="@@webRoot/produit.html" style="text-decoration:none" class="text-dark">app.kitts.io</a>
             </h1>
             <nav class="nav justify-content-center">
-              <a class="badge badge-pill badge-primary mr-1 mb-1" href="#fonctions">
+              <div class="badge badge-pill badge-primary mr-1 mb-1" href="#fonctions">
                 <span class="h6 text-uppercase">Fonctionnalités</span>
-              </a>
-              <a class="badge badge-pill badge-warning mr-1 mb-1" href="#services">
+              </div>
+              <div class="custom-control custom-switch mx-5">
+                <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                <label class="custom-control-label custom-control-label-jb"" for="customSwitch2"></label>
+              </div>
+              <div class="badge badge-pill badge-warning mr-1 mb-1" href="#services">
                 <span class="h6 text-uppercase">Services associés</span>
-              </a>
+              </div>
             </nav>
             <div id="fonctions"></div>
           </div>
@@ -40,18 +44,13 @@
           <div class="my-5 col-12 col-md-10 col-lg-8 text-center">
             
             <!-- Preheading -->
-            <h6 class="text-uppercase text-gray-500 font-weight-bold">
+            <!-- <h6 class="text-uppercase text-gray-500 font-weight-bold">
               Seamless integration
-            </h6>
-
-            <!-- Heading -->
-            <h1 class="font-weight-bold">
-              Data transfer is just a few clicks.
-            </h1>
+            </h6> -->
 
             <!-- Text -->
             <p class="font-size-lg text-muted mb-7 mb-md-9">
-              If we're no longer the right solution for you, we'll allow you to export and take your data at anytime for any reason.
+              Notre plateforme est un channel manager aux multiples fonctionnalités. <br> En fonction de vos besoins, des services sont proposés à la carte
             </p>
 
           </div>
@@ -311,9 +310,10 @@
                 <div id="services"></div>
             </div>
           </div>
+        </div>
 
+<div class="container my-10" >
 <!-- SERVICES ASSOCIES -->
-
 <div class="card card-border border-warning shadow-lg">
   <div class="card-body">
           
@@ -356,9 +356,9 @@
           </div>
           <!-- Checks -->
           <div class="col-4 d-flex flex-row-reverse justify-content-around">
-            <div class="custom-control custom-switch disabled">
-              <input type="checkbox" class="custom-control-input disabled" id="customSwitch2">
-              <label class="custom-control-label" for="customSwitch2"></label>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input disabled">
+              <label class="custom-control-label disabled" for="customSwitch2"></label>
             </div>
           </div>
         </div>
@@ -381,11 +381,9 @@
           </div>
           <!-- Checks -->
           <div class="col-4 d-flex flex-row-reverse justify-content-around">
-            <div class="badge badge-secondary-soft text-center order-1">
-              soon
-            </div>
-            <div class="badge badge-dark text-center">
-              soon
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input disabled">
+              <label class="custom-control-label disabled" for="customSwitch2"></label>
             </div>
           </div>
         </div>
@@ -408,11 +406,9 @@
           </div>
           <!-- Checks -->
           <div class="col-4 d-flex flex-row-reverse justify-content-around">
-            <div class="badge badge-white text-center order-1">
-            
-            </div>
-            <div class="badge badge-dark text-center">
-              <i class="fe fe-check"></i>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input disabled">
+              <label class="custom-control-label disabled" for="customSwitch2"></label>
             </div>
           </div>
         </div>
@@ -435,10 +431,9 @@
           </div>
           <!-- Checks -->
           <div class="col-4 d-flex flex-row-reverse justify-content-around">
-            <div class="badge badge-white text-center order-1">
-            </div>
-            <div class="badge badge-dark text-center">
-              <i class="fe fe-check"></i>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input disabled">
+              <label class="custom-control-label disabled" for="customSwitch2"></label>
             </div>
           </div>
         </div>

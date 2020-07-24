@@ -13571,3 +13571,9 @@ body.compensate-for-scrollbar {
     opacity: 0.2; }
   100% {
     opacity: 1; } }
+
+.custom-control-label-jb::before {
+  background-color: #D9E2EF !important; }
+
+.custom-control-label-jb::before {
+  background-color: #f8c945; }
