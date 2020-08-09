@@ -3,7 +3,7 @@
 
 (function() {
 
-
+if (document.getElementById("jb-toggle")!==null) {
   var cardjb = document.getElementById("jb-toggle");
   var switchtoggle  = document.getElementById("customSwitch2");
 
@@ -14,5 +14,5 @@
       cardjb.classList.add("order-2");
       }
     });
-
+  };
 })();
