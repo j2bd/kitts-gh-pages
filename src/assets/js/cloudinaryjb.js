@@ -20,11 +20,13 @@ if (document.getElementById("imagesjb")!==null) {
 if (document.getElementById("imagegetaround")!==null) {
 
     var cl = new cloudinary.Cloudinary({cloud_name: "des7ayfwu", secure: true});
-  // insertion de mes images au fur et à mesure
     var getaround = cl.imageTag('logos/getaround', {effect: "colorize", color: "#BB43B8", height: 30, quality: 100, crop: "scale", format: "png"}).toHtml();
-
-      //#0AC5A8 #F76262 #506690 #293462 #FFF1C1 #BB43B8
     document.getElementById("imagegetaround").innerHTML = getaround;
+    console.log(getaround);
   };
+
+
+
+
 
 })();
