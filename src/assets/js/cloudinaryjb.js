@@ -25,8 +25,4 @@ if (document.getElementById("imagegetaround")!==null) {
     console.log(getaround);
   };
 
-
-
-
-
 })();
